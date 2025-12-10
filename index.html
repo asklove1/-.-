@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>رسالة لأميرة — 2026</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      margin:0;
+      font-family:'Cairo',sans-serif;
+      background:#000; /* خلفية سوداء */
+      color:#fff;
+      padding:0;
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      overflow-x:hidden;
+    }
+
+    .wrap{
+      max-width:850px;
+      width:100%;
+      margin:40px;
+      background:rgba(255,255,255,0.05);
+      border-radius:20px;
+      padding:40px 28px;
+      border:1px solid rgba(255,255,255,0.08);
+      box-shadow:0 0 40px rgba(255,255,255,0.1);
+      animation:fadeIn 1.3s ease;
+      position:relative;
+    }
+
+    .tag{
+      display:inline-block;
+      padding:8px 18px;
+      background:rgba(255,255,255,0.1);
+      border-radius:50px;
+      font-weight:700;
+      font-size:15px;
+      color:#fff;
+      margin-bottom:12px;
+      animation:slideDown 1.4s ease;
+    }
+
+    h1{
+      margin:5px 0 22px;
+      font-size:30px;
+      text-shadow:0 0 20px rgba(255,255,255,0.2);
+      animation:slideDown 1.5s ease;
+    }
+
+    p{
+      white-space:pre-wrap;
+      color:#eee;
+      font-size:19px;
+      line-height:1.8;
+      animation:fadeInText 2s ease;
+    }
+
+    /* تأثير نجوم خفيف */
+    .stars{
+      position:absolute;
+      top:0; left:0; right:0; bottom:0;
+      pointer-events:none;
+      background-image:
+        radial-gradient(#ffffff15 1px, transparent 1px),
+        radial-gradient(#ffffff10 1px, transparent 1px);
+      background-size:160px 160px, 100px 100px;
+      opacity:0.6;
+    }
+
+    /* أنيميشنات */
+    @keyframes fadeIn{
+      0%{ opacity:0; transform:translateY(40px); }
+      100%{ opacity:1; transform:translateY(0); }
+    }
+    @keyframes slideDown{
+      0%{ opacity:0; transform:translateY(-25px); }
+      100%{ opacity:1; transform:translateY(0); }
+    }
+    @keyframes fadeInText{
+      0%{ opacity:0; }
+      100%{ opacity:1; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrap">
+    <div class="stars"></div>
+
+    <span class="tag">إلى أميرة</span>
+
+    <h1>أميرة… رسالة من قلبي إلى قلبك</h1>
+
+    <p>
+أنا بحبّك أكثر من أي حدا مرّ بحياتك، وأكثر من كل الناس اللي تعرفيهم.
+حبّي إلك مش لعب ولا مزحة… حبّي ثابت، واقف مثل الجبل.
+
+يمكن الظروف لسه ما جابت وقتها، بس أنا محارب… بصبر، وبستنى اللحظة الصح اللي آخذك فيها من بين كل العالم، إذا ربنا كاتب إلنا النصيب.
+
+2026 بالنسبة إلي مش بس سنة جديدة…  
+هي سنة أمل، سنة دعاء، سنة أستنى فيها نصيبنا يجمعنا.
+
+أميرة… لو تعرفي شو مكانتك بقلبي، كان عرفتي إنّي ما شفت حد بيسوى قدّك، ولا رح أشوف.
+
+وبوعدك… لو كان في نصيب، رح أكون سندك قبل ما أكون حبّك.
+    </p>
+  </div>
+
+</body>
+</html>
