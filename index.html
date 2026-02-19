@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> رساله لاميره الغاليه في رمضان  </title>
+  <title>رسالة لأميرة الغالية في رمضان</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -11,9 +11,8 @@
     body{
       margin:0;
       font-family:'Cairo',sans-serif;
-      background:#000; /* خلفية سوداء */
+      background:#000;
       color:#fff;
-      padding:0;
       min-height:100vh;
       display:flex;
       justify-content:center;
@@ -41,7 +40,6 @@
       border-radius:50px;
       font-weight:700;
       font-size:15px;
-      color:#fff;
       margin-bottom:12px;
       animation:slideDown 1.4s ease;
     }
@@ -61,10 +59,9 @@
       animation:fadeInText 2s ease;
     }
 
-    /* تأثير نجوم خفيف */
     .stars{
       position:absolute;
-      top:0; left:0; right:0; bottom:0;
+      inset:0;
       pointer-events:none;
       background-image:
         radial-gradient(#ffffff15 1px, transparent 1px),
@@ -73,18 +70,17 @@
       opacity:0.6;
     }
 
-    /* أنيميشنات */
     @keyframes fadeIn{
-      0%{ opacity:0; transform:translateY(40px); }
-      100%{ opacity:1; transform:translateY(0); }
+      from{ opacity:0; transform:translateY(40px); }
+      to{ opacity:1; transform:translateY(0); }
     }
     @keyframes slideDown{
-      0%{ opacity:0; transform:translateY(-25px); }
-      100%{ opacity:1; transform:translateY(0); }
+      from{ opacity:0; transform:translateY(-25px); }
+      to{ opacity:1; transform:translateY(0); }
     }
     @keyframes fadeInText{
-      0%{ opacity:0; }
-      100%{ opacity:1; }
+      from{ opacity:0; }
+      to{ opacity:1; }
     }
   </style>
 </head>
@@ -94,11 +90,9 @@
   <div class="wrap">
     <div class="stars"></div>
 
-
-
     <span class="tag">إلى أميرة</span>
 
-    <h1>أميرة… رساله اليك في شهر رمضان يا عمري</h1>
+    <h1>أميرة… رسالة إليك في شهر رمضان يا عمري</h1>
 
     <p>
 أميره… يا أم قلبي، يا أم حياتي كلها 🤍🌙
@@ -109,10 +103,7 @@
 أميره… أنا ما بدي بس أول رمضان سوا، أنا بدي كل رمضانات العمر تكوني فيها جنبي، بدي نفطر سوا، ونضحك سوا، وندعي سوا، ونقول بعد سنين: “تتذكر أول رمضان إلنا؟” 🥹🌙
 حبي إلك مش كلام ينكتب وينتهي… حبي إلك وعد، نية صادقة، ودعاء مستمر. أحبك أكثرررررررررر من كل شي، وأتمنى ربي يجمعني فيك بالحلال، ويخليني إلك وتكوني إلي طول العمر ❤️✨
     </p>
-  </div>
 
-</body>
-</html>
   </div>
 
 </body>
